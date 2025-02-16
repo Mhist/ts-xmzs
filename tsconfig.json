@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "types": ["node"],
-    "typeRoots": ["./node_modules/@types"],
     /* 访问 https://aka.ms/tsconfig 以了解更多关于此文件的信息 */
 
     /* 项目 */
@@ -34,7 +32,7 @@
       // "paths": {},                                      /* 指定一组条目，将导入重新映射到额外的查找位置。 */
       // "rootDirs": [],                                   /* 允许多个文件夹在解析模块时被视为一个文件夹。 */
       // "typeRoots": [],                                  /* 指定多个类似于 './node_modules/@types' 的文件夹。 */
-      // "types": [],                                      /* 指定未在源文件中引用的类型包名称以包含在项目中。 */
+      "types": [],                                      /* 指定未在源文件中引用的类型包名称以包含在项目中。 */
       // "allowUmdGlobalAccess": true,                     /* 允许从模块访问 UMD 全局变量。 */
       // "moduleSuffixes": [],                             /* 指定解析模块时搜索的文件名后缀列表。 */
       // "allowImportingTsExtensions": true,               /* 允许导入包含 TypeScript 文件扩展名。需要 '--moduleResolution bundler' 并设置 '--noEmit' 或 '--emitDeclarationOnly'。 */
