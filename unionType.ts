@@ -52,4 +52,4 @@ let value: string | number = "hello";
 let strLength2: number = (value as string).length;
 
 // 断言为 number 类型
-let numValue2: number = (value as number).toFixed(2); // 运行时可能会出错，因为 value 是字符串、不能将类型“string”分配给类型“number”。
+// let numValue2: number = (value as number).toFixed(2); // 运行时可能会出错，因为 value 是字符串、不能将类型“string”分配给类型“number”。
